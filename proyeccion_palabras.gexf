@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-05-03">
+    <creator>NetworkX 3.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="bipartite" type="long" />
+    </attributes>
+    <nodes>
+      <node id="Word1" label="Word1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Word2" label="Word2">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Word3" label="Word3">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Word4" label="Word4">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Word5" label="Word5">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Word1" target="Word3" id="0" />
+      <edge source="Word1" target="Word5" id="1" />
+      <edge source="Word1" target="Word4" id="2" />
+      <edge source="Word1" target="Word2" id="3" />
+      <edge source="Word2" target="Word3" id="4" />
+      <edge source="Word2" target="Word5" id="5" />
+      <edge source="Word2" target="Word4" id="6" />
+      <edge source="Word3" target="Word4" id="7" />
+      <edge source="Word3" target="Word5" id="8" />
+      <edge source="Word4" target="Word5" id="9" />
+    </edges>
+  </graph>
+</gexf>
